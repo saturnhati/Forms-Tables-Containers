@@ -49,3 +49,11 @@ section {
 ul {
     list-style:url(https://www.svgrepo.com/show/232049/frog.svg)
 }
+
+a {
+    color: #00d9da;
+}
+
+a:visited {
+    color: #fe2751;
+}
