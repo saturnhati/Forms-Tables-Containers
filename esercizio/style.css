@@ -7,3 +7,45 @@ td, th {
     text-align: center;
     border: 1px solid black;
 }
+
+article {
+    border: 1px solid black;
+    padding: 40px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    margin: 20px;
+}
+
+header {
+    padding: 20px 20px 6px 20px;
+}
+
+footer {
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    font-style: bold;
+}
+
+h1 {
+    margin-bottom: 4px;
+}
+
+hr {
+    width: 97%;
+}
+
+section {
+    outline: 1px solid black;
+    padding: 25px;
+}
+
+ul {
+    list-style:url(https://www.svgrepo.com/show/232049/frog.svg)
+}
