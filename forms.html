@@ -18,7 +18,8 @@
         <legend>Anagrafica</legend>
 
         <label for="username">Username</label>
-        <input type="text" name="username" id="username" />
+        <!-- l'attributo required serve a bloccare l'invio di un form se non è stato inserito un dato in un input -->
+        <input type="text" name="username" id="username" required />
         <br />
         <br />
         <label for="password">Password</label>
@@ -40,7 +41,8 @@
         <br />
         <br />
         <label for="time">Ora</label>
-        <input type="time" name="time" id="time" />
+        <!-- l'attributo disabled disabilita un input -->
+        <input type="time" name="time" id="time" disabled />
       </fieldset>
       <br />
       <fieldset>
@@ -61,6 +63,23 @@
         <input type="checkbox" name="checkbo1" id="checkbox1" />
         <label for="domanda1"> Checkbox 2 </label>
         <input type="checkbox" name="checkbox2" id="checkbox2" />
+        <hr />
+        <textarea name="comments" id="comments" cols="100%" rows="2" maxlenght="300"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Regione</legend>
+        <select name="region id="region">
+      <optgroup label="Friuli Venezia Giulia">
+            <option value="UD">Udine</option>
+            <option value="PN">Pordenone</option>
+            <option value="TS">Trieste</option>
+      </optgroup>
+      <optgroup label="Veneto">
+        <option value="VE">Venezia</option>
+        <option value="VI">Vicenza</option>
+        <option value="PD">Padova</option>
+  </optgroup>
+        </select>
       </fieldset>
       <br />
       <!-- Questi due bottoni invieranno i dati del form -->
